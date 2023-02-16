@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Profile
+{
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+}
+
+.Profile_Information
+{
+  margin-left: 3em;
+}
+
+.Profile_Image
+{
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+  width: max-content;
+  border-radius: 30%;
+}
+
+.Profile_Customization
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+button
+{
+  margin-top: 1em;
+  border-radius: 5em;
+  background-color: grey;
+}
+
+button:hover
+{
+  background-color: lightgrey;
+}
