@@ -116,7 +116,106 @@
       </a>  
     </div>
 
-    <div class="container">
+    <style>
+      body {
+        background-color: #ffffff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      h1 {
+        text-align: center;
+        margin-top: 0;
+      }
+  
+      .appointment {
+        background-color: #edecec ;
+        border: 2px solid rgb(232, 117, 0);
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+      }
+  
+      .appointment:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px #154734;
+      }
+  
+      .appointment h2 {
+        margin-top: 0;
+      }
+  
+      .appointment p {
+        margin: 0;
+      }
+  
+      .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+      }
+  
+      .modal {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        position: relative;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+      }
+  
+      .modal h2 {
+        margin-top: 0;
+      }
+  
+      .modal p {
+        margin: 0;
+      }
+  
+      .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        color: #999;
+        font-size: 20px;
+      }
+  
+      .cancel-btn {
+        background-color: #154734;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: all 0.2s ease-in-out;
+      }
+  
+      .cancel-btn:hover {
+        background-color: #e87500;
+      }
+    </style>
+
+    <div class="container" style = "float:right;">
       <h1>Tutoring Appointments</h1>
       <div class="appointment" data-id="1">
         <h2>Math Tutoring</h2>
