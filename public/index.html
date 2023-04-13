@@ -162,6 +162,16 @@
       display: block;
 		  }
 
+      .favorites-box {
+			width: 650px;
+			height: 150px;
+			background-color: #154734;
+      border: 2px solid #154734;
+			padding: 10px;
+			margin: 10px;
+			border-radius: 5px;
+		}
+
       .appointment {
         background-color: #edecec ;
         border: 2px solid rgb(232, 117, 0);
@@ -240,6 +250,17 @@
       .cancel-btn:hover {
         background-color: #e87500;
       }
+
+      .left-image {
+      float: left;
+      margin-right: 10px;
+      height: 20px;
+    }
+    .right-image {
+      float: right;
+      margin-left: 10px;
+      height: 20px;
+    }
     </style>
 
     <div class="box">
@@ -267,6 +288,14 @@
       <p>Expertise: Software Engineering</p>
     </div>
 
+    <div class="container" style = "float:left;">
+      <h1>
+      Favorite Tutors
+      </h1>
+      <div class="favorites-box">
+        <p style="color: white;">You currently have no favorited tutors.</p>
+      </div>
+    </div>
     <div class="container" style = "float:right;">
       <h1>Tutoring Appointments</h1>
       <div class="appointment" data-id="1">
