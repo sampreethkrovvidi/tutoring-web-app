@@ -34,6 +34,7 @@
         </form>
       </div>
     </nav>
+
     <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="index.html">Home </a>
@@ -44,11 +45,11 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">UTD Tutes</h1>
         <div style="text-align: center;">
           <img src="logo.png" width="250" height="250">
+          <h1 class="display-4">UTD Tutes</h1>
+          <p class="lead">Find a Tutor at Your Fingertips</p>
         </div>
-        <p class="lead">This is our online tutoring application that provides students with easily accessible tutors.</p>
       </div>
     </div>
 
@@ -65,10 +66,13 @@
         <p1>I am a highly motivated Senior at the University of Texas at Dallas with a passion for Programming, Software Engineering, Computer Security, and Artificial Intelligence</p1>
       </div>
     </div>
+
+    <br>
     <div class="tutor-title">
       <h1>Tutor Listing</h1>
     </div>
     
+    <!--
     <div class="flex-container">
       <a href="#">
         <div>Professor Smith
@@ -125,6 +129,7 @@
         </div> 
       </a>  
     </div>
+    -->
 
     <style>
       body {
@@ -145,6 +150,18 @@
         margin-top: 0;
       }
   
+      .box {
+			width: 300px;
+			height: 250px;
+      background-color: #edecec;
+			border: 2px solid #154734;
+			padding: 10px;
+			margin: 10px;
+			float: left;
+      border-radius: 5px;
+      display: block;
+		  }
+
       .appointment {
         background-color: #edecec ;
         border: 2px solid rgb(232, 117, 0);
@@ -224,6 +241,31 @@
         background-color: #e87500;
       }
     </style>
+
+    <div class="box">
+      <h3>Professor Smith</h3>
+      <img src="prof1.png" alt="prof1">
+      <p>About Me: UT Dallas Engineering Professor</p>
+      <p>Expertise: Requirements Engineering</p>
+    </div>
+    <div class="box">
+      <h3>Professor Nhut</h3>
+      <img src="prof2.png" alt="prof2">
+      <p>About Me: UT Dallas Engineering Professor</p>
+      <p>Expertise: Networks</p>
+    </div>
+    <div class="box">
+      <h3>Professor Paulk</h3>
+      <img src="prof3.png" alt="prof3">
+      <p>About Me: UT Dallas Engineering Professor</p>
+      <p>Expertise: Project Managment</p>
+    </div>
+    <div class="box">
+      <h3>Professor Khan</h3>
+      <img src="prof4.png" alt="prof4">
+      <p>About Me: UT Dallas Engineering Professor</p>
+      <p>Expertise: Software Engineering</p>
+    </div>
 
     <div class="container" style = "float:right;">
       <h1>Tutoring Appointments</h1>
